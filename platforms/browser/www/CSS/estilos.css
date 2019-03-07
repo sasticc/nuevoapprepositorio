@@ -1,0 +1,38 @@
+body,html{
+	height: 100%;
+}
+
+header{
+	background: url(images/1528673640_673640_000002_album_normal.jpg) center center;
+	background-size: cover;
+	padding: 5em 5em 5em 5em;
+}
+
+.contenido{
+	background: rgba(255,255,255,0.4);
+	padding: 2em;
+}
+
+.centrar{
+	text-align: center;
+}
+
+.fondo{
+	background: url(images/Hora-de-aventura.jpg) center center;
+	background-size: cover;
+}
+
+.menu{
+	list-style: none;
+	display: flex;
+	width: 60%;
+	justify-content: space-around; 
+	margin: 0 auto;
+}
+
+.menu li a{
+	color: #fff;
+	font-size: 1.6em;
+	text-transform: capitalize;
+	text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+}
